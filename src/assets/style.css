@@ -1,0 +1,85 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: lightblue;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    width: 500px;
+    height: 800px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+p {
+    color: white;
+    font-size: xx-large;
+    padding-top: 1rem;
+}
+
+.imgList {
+    width: 2rem;
+    vertical-align: middle;
+}
+
+input {
+    height: fit-content;
+    font-size: larger;
+    letter-spacing: 0.1em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    width: 85%;
+    float: right;
+}
+
+input[type="checkbox"] {
+    float: left;
+    opacity: 0;
+    width: 0;
+    margin: 0;
+}
+
+.imgCheck {
+    width: 1rem;
+    margin-right: 0.5rem;
+}
+
+span {
+    display: block;
+    float: left;
+    color: white;
+    font-size: x-large;
+    width: 17rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    float: right;
+    margin-right: 5rem;
+}
+
+button>img {
+    width: 1.2rem;
+}
+
+.currentDate {
+    width: 100%;
+    text-align: center;
+}
